@@ -1,10 +1,10 @@
-# DepoAPI 🚀
+# DepoAPI 
 
 DepoAPI is a comprehensive backend API for warehouse and storage management. It is built adhering to Clean Architecture principles, ensuring a scalable, testable, and maintainable codebase. The entire infrastructure is fully dockerized for seamless deployment and development.
 
 ## 🛠 Tech Stack
 
-* **Framework:** .NET / C#
+* **Framework:** .NET 8 / C#
 * **Architecture:** Clean Architecture (Domain, Application, Infrastructure, Persistence, Presentation)
 * **Relational Database:** PostgreSQL
 * **Containerization:** Docker & Docker Compose
