@@ -11,7 +11,7 @@ DepoAPI is a comprehensive backend API for warehouse and storage management. It 
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 You don't need to install any databases locally to run this project. Everything is containerized!
 
