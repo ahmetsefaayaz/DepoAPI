@@ -6,7 +6,7 @@ DepoAPI is a comprehensive backend API for warehouse and storage management. It 
 
 * **Framework:** .NET / C#
 * **Architecture:** Clean Architecture (Domain, Application, Infrastructure, Persistence, Presentation)
-* **Relational Database:** PostgreSQL / SQL Server
+* **Relational Database:** PostgreSQL
 * **Containerization:** Docker & Docker Compose
 
 ---
@@ -40,9 +40,9 @@ docker-compose up -d --build
 Once the containers are up and running, you can access the Swagger UI to test the endpoints:
 * **Swagger URL**: http://localhost:8080/swagger
 
-### Database Connections (For Local Inspection)
+## Database Connections (For Local Inspection)
 
-## PostgreSQL (Main Data & Identity)
+### PostgreSQL (Main Data & Identity)
 * **Host:** localhost
 * **Port:** 5433
 * **Database:** DepoDb
