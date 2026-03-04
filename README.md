@@ -49,7 +49,7 @@ Once the containers are up and running, you can access the Swagger UI to test th
 * **Username:** postgres
 * **Password:** SuperSecretPassword123!
 
-### Admin Information
+#### Admin Information
 * **Email:** admin@gmail.com
 * **Password:** _AdminPassword0
 
