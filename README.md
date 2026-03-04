@@ -6,9 +6,9 @@ DepoAPI is a comprehensive backend API for warehouse and storage management. It 
 
 * **Framework:** .NET / C#
 * **Architecture:** Clean Architecture (Domain, Application, Infrastructure, Persistence, Presentation)
-* **Relational Database:** PostgreSQL / SQL Server *(Hangisini kullandıysan burayı güncelleyebilirsin)*
+* **Relational Database:** PostgreSQL / SQL Server
 * **Containerization:** Docker & Docker Compose
-* **Testing:** xUnit & Moq *(Test yazdıysan ekleyebilirsin)*
+* **Testing:** xUnit & Moq
 
 ---
 
