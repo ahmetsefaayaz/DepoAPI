@@ -1,0 +1,31 @@
+services:
+  depo-db:
+    image: postgres:latest
+    container_name: depo_postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: SuperSecretPassword123!
+      POSTGRES_DB: DepoDb
+      PGDATA: /var/lib/postgresql/data/pgdata 
+    ports:
+      - "5433:5432" 
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  depo-api:
+    image: depoapi:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    depends_on:
+      - depo-db
+    environment:
+      - ConnectionStrings__DefaultConnection=Host=depo-db;Database=DepoDb;Username=postgres;Password=SuperSecretPassword123!
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=8080
+      - ASPNETCORE_URLS=http://+:8080 
+
+volumes:
+  postgres_data:
