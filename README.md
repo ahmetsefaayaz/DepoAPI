@@ -46,9 +46,9 @@ Once the containers are up and running, you can access the Swagger UI to test th
 ## PostgreSQL (Main Data & Identity)
 * **Host:** localhost
 * **Port:** 5433
-* **Database:** CryptoFlowDb
+* **Database:** DepoDb
 * **Username:** postgres
-* **Password:** mysecretpassword
+* **Password:** SuperSecretPassword123!
 
 ### Admin Information
 * **Email:** admin@gmail.com
